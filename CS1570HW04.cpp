@@ -81,7 +81,7 @@ int main()
                 while (candy > 5 || candy < 0) {
                     cout << "Invalid number. Please enter number (0-5): ";
                     cin >> candy;
-                }for (int i = 0; i <= candy; ++i) {
+                }for (int i = 0; i < candy; ++i) {
                     bill += 10.00;
                     services += "\nCandy: $10.00";
                 }
@@ -156,7 +156,7 @@ int main()
             cout << "If Jamie's anxiety is too high, he might decide he's not ready to see the dentist. This decreases Jamie's anxiety by 3, as leaving brings immediate relief, even if it's only a temporary solution. However, Jamie will incur a “Missed Appointment Fee” for not proceeding with the scheduled visit($250)." << endl;
             anxiety -= 3;
             bill += 250.00;
-            services += "\nMissed apointment fee: $20.00";
+            services += "\nMissed apointment fee: $250.00";
             break;
         default:
             cout << "Invalid input" << endl;
