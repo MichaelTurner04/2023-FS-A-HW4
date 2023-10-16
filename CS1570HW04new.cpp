@@ -113,6 +113,7 @@ int main()
                 cout << "Invalid range. Please enter value 0-3 " << endl;
                 cout << "1. speak with the dentist \n2. Choose a toy to hold during the visit \n3. Start the dental procedure" << endl;
                 cin >> dentistRoom;
+            }
             switch (dentistRoom) {
             case 1: //Speak with the dentist
                 cout << "Jamie and the dentist engage in a light conversation, with the dentist explaining what will happen during the visit. This action costs Jamie $40 but lowers his anxiety by 2, as understanding the process can be reassuring." << endl;
@@ -141,6 +142,7 @@ int main()
                 cout << "Invalid range. Please enter value 0-4 " << endl;
                 cout << "1. Standard checkup \n2. Teeth Cleaning \n3. Cavity filling \n4. Specialist consultation " << endl;
                 cin >> dentistRoom;
+            }
             switch (dentistRoom) {
             case 1: //Standard check up
                 cout << "Jamie gets a standard dental checkup for $50.  This increases Jamie's anxiety by 1 since a standard checkup is fairly routine." << endl;
